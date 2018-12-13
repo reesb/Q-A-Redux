@@ -1,0 +1,109 @@
+.navbar {
+    float: left;
+}
+
+.navbar-item {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+a.navbar-item {
+    color: royalblue;
+
+}
+
+a.navbar-item:hover {
+    color: red;
+    cursor: pointer;
+}
+
+p.navbar-item {
+    color: green;
+}
+
+.title {
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.subtitle {
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.intro-text {
+    text-align: left;
+    filter: left;
+}
+
+.questions-title {
+    font-size: 125%;
+}
+
+body {
+    background-color: #ABDAE1;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.input {
+    margin-left: 2px;
+}
+
+.button:hover {
+    background-color: #F9B5AC;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #EE7674;
+    cursor: pointer;
+}
+
+div.container.questions-container {
+    height: 405px;
+    overflow: auto;
+}
+
+.question-body{
+    width: 70%;
+}
+
+/* Dropdown menu **********************************/
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header-section {
+    text-align: center;
+}
+
+/**************************************************/
+/* Review Page */
+
+.rev {
+    text-align: center;
+    font-size: 350%;
+}
+
